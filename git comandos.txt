@@ -1,0 +1,13 @@
+git init
+
+git add .
+
+git commit -m "meu primeiro commit"
+
+git config user.name "vitorbomba"
+
+git config user.email "vitor.bomba@terra.com.br"
+
+git remote add origin https://github.com/vitorbomba/meusite.git
+
+git push -u origin master
